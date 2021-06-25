@@ -40,6 +40,10 @@ bool czy_kolizja(shared_ptr<Obiekt_Sceny> ob)
  }
     return false;
 }
+/*!
+   * Funkcja opisujaca zapis | Argumenty: |
+   *                                                |
+   */
 bool Zapis()
 {
   std::ofstream  StrmPlikowy;

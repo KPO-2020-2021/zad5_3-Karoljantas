@@ -4,6 +4,12 @@
 #include "vector.hh"
 using namespace std;
 
+/*!
+ * \brief Kalasa opisujaca obiekt_sceny
+ *
+ *klasa abstrakcyjna z której dziedziczy dron i bryly, klasa bierze udział przy badaniu kolizji
+ */
+
 class Obiekt_Sceny
 {
 

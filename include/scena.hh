@@ -29,7 +29,7 @@ public:
 
     lista_Dronow.push_front(make_shared<Dron>(0, argumentsV2));
     lista_przeszkod.push_front(*lista_Dronow.begin());
-    lista_Dronow.push_front(make_shared<Dron>(0, argumentsV3));
+    lista_Dronow.push_front(make_shared<Dron>(1, argumentsV3));
     lista_przeszkod.push_front(*lista_Dronow.begin());
     nr_ob = 3;
 
@@ -93,6 +93,7 @@ public:
     Lacze.UstawZakresX(-400, 400);
     Lacze.UstawZakresZ(-400, 400);
     dno = new Powierzchnia(800, 800, -20, "../datasets/dno.dat");
+    dno->Zapis();
   }
   /*!
    * Funkcja opisujaca zapis | Argumenty: |
